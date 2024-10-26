@@ -37,7 +37,7 @@ AI_CHATBOT: process.env.AI_CHATBOT || true  ,
 AI_IMAGE: process.env.AI_IMAGE || true  ,
 MATHS_AI: process.env.MATHS_AI || true  ,    
 WELCOME: process.env.WELCOME || true  ,    
-LOGO: process.env.LOGO || 'https://telegra.ph/file/7dd5b186621993e20b73b.jpg' ,
+LOGO: process.env.LOGO || `https://telegra.ph/file/7dd5b186621993e20b73b.jpg` ,
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,    
 ANTI_DELETE : process.env.ANTI_DELETE || true ,
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO        
